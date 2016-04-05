@@ -3,17 +3,17 @@
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 255);
     border-bottom-width: 0px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li {
     margin-left: 3vw;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: #ffffff;
+    color: #000000;
     background-color: Transparent;
 	font-family: 'Montserrat';
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 1.5em;
 }
 
@@ -68,11 +68,16 @@
 }
 
 .navlogo{
+	opacity: 0.5;
 	position: relative;
 	margin-right: 0px;
 	display: inline;
 	width: 20%;
+	transition: opacity 0.5s linear;
+}
 
+.logo-transparent{
+	opacity: 0;
 }
 
 .navbar-toggle{
@@ -84,12 +89,12 @@
 	display: inline-block;
 
 	
-	color: #ffffff;
+	color: #00D9CA !important;
 	font-size: 100%;
 	font-weight: normal;
 	
 	background-color: Transparent;
-	border: 2px solid #ffffff;
+	border: 2px solid #00D9CA;
 	border-radius: 4px;
 
 	letter-spacing: 4px;
@@ -105,6 +110,15 @@
 
 
 }
+
+
+.ghostnav:hover, .ghostnav:active{
+  color:#ffffff !important;
+  background-color:#00D9CA !important;
+  text-decoration: none;
+  border-color: #00D9CA !important;
+}
+
 
 @media screen and (max-width: 768px) {
     .ghostnav {
@@ -136,7 +150,8 @@
 }
 
 #custom-bootstrap-menu{
-	opacity: 0.5;
+	opacity: 1;
+	box-shadow: 0px 2px 5px #dddddd;
 	transition: opacity 0.4s linear;
 	transition: background-color 0.4s linear;
 }
@@ -144,7 +159,7 @@
 .menuScrolled{
 	opacity: 1 !important;
 	background-color: #ffffff !important;
-	box-shadow: 0px 2px 5px #dddddd;
+	
 }
 
 .linkScrolled{

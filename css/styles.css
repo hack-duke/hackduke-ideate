@@ -47,24 +47,31 @@ body{
 }
 
 #project-0{
-	background-image: url("../images/chapel-bw.jpg");
+	width: auto;
+	height: 110vh  ;
+	background-image: url("../images/whitebg.png");
 	background-size: cover;
-	background-attachment: fixed;
-	text-align: center;
-	height: 100vh;
-}
-
-#project-1{
-	/*background-image: url("../images/transpwhite.png");*/
-	background: #ff4455;
-	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	text-align: center;
 	min-height: 100vh;
 }
 
+
+
+
+#project-1{
+	background-image: url("../images/aboutbg.png");
+	background-position: right bottom;
+	background-size: auto 100vh;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	text-align: center;
+	height: 110vh;
+	min-height: 100% !important;
+}
+
 #project-2{
-	background-color:#fafbff;
+	background-color:#f6f6f6;
 	background-size: 100% 100%;
 	
 }
@@ -78,7 +85,7 @@ body{
 /*Landing Content */
 
 .landing-text{
-	color: #ff0055; 
+	color: #000000; 
 	font-family: 'Montserrat';
 	font-weight: 700; 
 	text-align: center;
@@ -91,7 +98,7 @@ body{
 }
 
 #landing-title{
-	margin-top: 33vh;
+	margin-top: 30vh;
 	margin-bottom: 4%;
 	width: 25vw;
 	max-width: 50vw;
@@ -123,12 +130,12 @@ body{
 
 .ghost-button{
 	
-	color: #ffffff;
+	color: #FF186E;
 	font-size: 3vh;
 	font-weight: normal;
 	
 	background-color: Transparent;
-	border: 2px solid #ffffff;
+	border: 2px solid #FF186E;
 	border-radius: 4px;
 
 	letter-spacing: 4px;
@@ -142,32 +149,82 @@ body{
 }
 
 .ghost-button:hover, .ghost-button:active{
-  color:#000000;
-  background-color:#ffffff;
+  color:#ffffff;
+  background-color:#FF186E;
   text-decoration: none;
+  border-color: #FF186E;
 }
 
 /*About Content*/
 .abouthead{
-	color: #ffffff;
-	margin-top: 22vh;
+	color: #00D9CA;
+	margin-top: 0;
 	margin-bottom: 0.5%;
-	font-size: 50px;
-	letter-spacing: 9px;
+	font-size: 2.3vw;
+	letter-spacing: auto;
 }
 
 .aboutrule{
-	border-color: #ff5036;
+	border-color: #00D9CA;
 	border-width: 4px;
 	width: 30%;
-	margin-top: 0;
+	margin-top: auto;
+	margin-bottom: 0;
 }
 
 .aboutbody{
-	color: #ffffff; 
-	font-family: 'Playfair Display';
+	color: #000000; 
+	font-family: 'San Francisco';
+	font-size: 1.5vw;
+	font-weight: 400; 
+	text-align: center;
+}
+
+#block1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	text-align: left;
+}
+#block1 > img{
+	height: 2%;
+	width: 60%;
+}
+
+/*Speakers */
+
+.speakersrule{
+	border-color: #2C6CD2;
+	border-width: 4px;
+	width: 30%;
+	margin-top: auto;
+	margin-bottom: 0;
+}
+.speakershead{
+	color: #00D9CA;
+	margin-top: 0;
+	margin-bottom: 0.5%;
+	font-size: 50px;
+	letter-spacing: auto;
+}
+.speakersbody{
+	color: #000000; 
+	font-family: 'San Francisco';
 	font-size: 30px;
 	font-weight: 400; 
 	text-align: center;
 }
+
+#block2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	text-align: left;
+}
+
+#block2 >img{
+	height: 2%;
+	width: 100%;
 }
