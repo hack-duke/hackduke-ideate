@@ -72,7 +72,9 @@ body{
 
 #project-2{
 	background-color:#f6f6f6;
+	padding: 0 !important;
 	background-size: 100% 100%;
+	height: auto !important;
 	
 }
 
@@ -119,9 +121,9 @@ body{
 
 
 #landing-caption{
-	font-family: 'San Francisco';
-	font-weight: 500;
-	font-size: 4vw; 
+	font-family: 'montserratlight';
+    font-weight: 100;
+	font-size: 3vw; 
 	letter-spacing: 4px;
 	margin-top: 2%;
 	line-height: 1em;
@@ -174,7 +176,7 @@ body{
 
 .aboutbody{
 	color: #000000; 
-	font-family: 'San Francisco';
+	font-family: 'montserratlight';
 	font-size: 1.5vw;
 	font-weight: 400; 
 	text-align: center;
@@ -182,7 +184,7 @@ body{
 
 #block1{
 	position: absolute;
-	bottom: 0;
+	bottom: -5px;
 	left: 0;
 	width: 100vw;
 	text-align: left;
@@ -195,16 +197,16 @@ body{
 /*Speakers */
 
 .speakersrule{
-	border-color: #2C6CD2;
+	border-color: #FF186E;
 	border-width: 4px;
-	width: 30%;
+	width: 35%;
 	margin-top: auto;
 	margin-bottom: 0;
 }
 .speakershead{
-	color: #00D9CA;
-	margin-top: 0;
-	margin-bottom: 0.5%;
+	color: #2C6CD2;
+	margin-top: 15vh;
+	margin-bottom: 1%;
 	font-size: 50px;
 	letter-spacing: auto;
 }
@@ -213,6 +215,16 @@ body{
 	font-family: 'San Francisco';
 	font-size: 30px;
 	font-weight: 400; 
+	text-align: center;
+}
+
+.speakerimg{
+	width: 10vw;
+	height: auto;
+}
+
+.speakerrow{
+	margin: 50px auto 50px auto;
 	text-align: center;
 }
 
