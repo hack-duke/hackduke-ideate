@@ -96,16 +96,16 @@
 	font-weight: normal;
 	
 	background-color: Transparent;
-	border: 2px solid #00D9CA;
-	border-radius: 4px;
+	border: 3px solid #00D9CA;
+	border-radius: 5px;
 
 	letter-spacing: 4px;
 	text-decoration: none;
 	font-family: 'Montserrat';
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-left: 1.5em !important;
+	padding-right: 1.5em !important;
 	
 	margin-top: 0%;
 	transform: translateX(-10px);
