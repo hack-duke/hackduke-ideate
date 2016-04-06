@@ -14,21 +14,21 @@
     background-color: Transparent;
 	font-family: 'Montserrat';
 	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	
 	letter-spacing: 4px;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: #FF186E;
+    color: #00D9CA;
     background-color: Transparent;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(85, 85, 85, 1);
-    background-color: rgba(231, 231, 231, 1);
+   color: #00D9CA;
+    
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #ddd;

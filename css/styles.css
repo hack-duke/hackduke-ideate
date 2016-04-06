@@ -72,8 +72,8 @@ body{
 #project-2{
 	background-color:#f6f6f6;
 	background-size: 100% 100%;
-	padding: 10vh 0 10vh 0;
-	min-height: 200vh;	
+	padding: 0vh 0 10vh 0;
+	min-height: 140vh;	
 }
 
 #project-3{
@@ -97,12 +97,46 @@ body{
 }
 
 #project-5{
+	height: auto !important;
+	background-color:#4A4A4A;
+	color: #ffffff;
+	background-size: 100% 100%;
+	text-align: center;
+
+	padding-top: 20vw;
+	padding-bottom: 5vw;
+}
+
+.quote{
+	color: #BBBBBB;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-size: 35px;
+}
+.quotename{
+	color: #ffffff;
+	opacity: .25;
+	font-family: 'Montserrat';
+	letter-spacing: 2px;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+#project-6{
 	background-color:#000000;
 	color: #ffffff;
 	background-size: 100% 100%;
 	text-align: center;
 	
-	height: 50px;
+	height: 130px;
+}
+
+.copyright{
+	margin-top: 55px;
+	color: #ffffff;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-family: 'Montserrat';
 }
 
 
@@ -133,6 +167,12 @@ body{
     #landing-title{
 		margin-top: 30vh;
     }
+	.quote{
+		font-size: 30px;
+	}
+	.quotename{
+		font-size: 25px;
+	}
 }
 
 #landing-subtitle{ 
@@ -147,19 +187,19 @@ body{
     font-weight: 100;
 	font-size: 3vw; 
 	letter-spacing: 4px;
-	margin-top: 2%;
-	line-height: 1em;
+	margin-top: 3%;
+	line-height: 1.2em;
 	margin-bottom: 6vh;
 }
 
 .ghost-button{
 	
-	color: #FF186E;
+	color: #2C6CD2 ;
 	font-size: 3vh;
 	font-weight: normal;
 	
 	background-color: Transparent;
-	border: 3px solid #FF186E;
+	border: 3px solid #2C6CD2 ;
 	border-radius: 5px;
 
 	letter-spacing: 4px;
@@ -174,9 +214,9 @@ body{
 
 .ghost-button:hover, .ghost-button:active{
   color:#ffffff;
-  background-color:#FF186E;
+  background-color:#2C6CD2 ;
   text-decoration: none;
-  border-color: #FF186E;
+  border-color: #2C6CD2 ;
 }
 
 /*About Content*/
@@ -184,7 +224,7 @@ body{
 	color: #00D9CA;
 	margin-top: 0;
 	margin-bottom: 0.5%;
-	font-size: 2.6vw;
+	font-size: 2.9vw;
 
 }
 
@@ -199,7 +239,7 @@ body{
 .aboutbody{
 	color: #000000; 
 	font-family: 'montserratlight';
-	font-size: 1.6vw;
+	font-size: 1.3vw;
 	font-weight: 400; 
 	text-align: center;
 }
@@ -229,6 +269,7 @@ body{
 	text-align: left;
 	padding: 0;
 	margin: 0;
+	z-index: 999
 }
 
 #block1down > img{
@@ -291,6 +332,8 @@ body{
 }
 
 .speakerimg{
+	
+	margin-left: -20px;
 	max-width: 300px; 
 	width: 100%;
 	height: auto;
@@ -330,8 +373,21 @@ body{
 @media screen and (max-width: 985px){
 	
 	#project-2{
-		padding-bottom: 360vh;
+		padding-bottom: 380vh;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
+	.speakercaption{
+		margin-bottom: 10px;
+	}
+	.speakerbody{
+		text-align: left;
+	}
+	.speakername, .speakerposition{
+		text-align:center;
+	}
+	.speakerimg{margin-left: 16px;
+	margin-top: 50px;}
 }
 
 @media screen and (max-width: 768px){
@@ -340,6 +396,12 @@ body{
 	}
 	.sponsorshead{
 		font-size: 9vw !important;
+	}
+	.abouthead{
+		font-size: 5vw;
+	}
+	.aboutbody{
+		font-size: 2vw;
 	}
 	.slide{
 		text-align: center;
