@@ -1,105 +1,208 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
+
+
+
 <head>
+
 	<meta charset="utf-8">
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>IdeateDuke</title>
+
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
 	<!--<script src="js/scripts.js" type="text/javascript"></script>-->
+
 	<script src="js/mobile.js" type="text/javascript"></script>
+
 	<script src="js/scripts.js" type="text/javascript"></script>
+
 	<link href="css/bootstrap.css" rel="stylesheet">
+
 	<link href="css/styles.css" rel="stylesheet">
+
 	<link href="css/nav.css" rel="stylesheet">
+
 	<link href="fonts/stylesheet.css" rel="stylesheet">
+
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:200,400,700' rel='stylesheet' type='text/css'>
+
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
 	<link href='css/sanfrancisco-font.css' rel='stylesheet' type='text/css'>
+
 </head>
 
+
+
+
 <body data-spy="scroll" data-target=".navbar" data-offset="71" class="">
+
 	<div id="fadewrapper">
+
 			
+
 	
+
 		<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
 			<div class="container-fluid" id="navcontain">
+
 				<div class="navbar-header">
+
 					<a class="" href="#" onclick="flipTo(0)"><img class="navlogo navlogoblack logo-transparent" src="images/logoblack.png"></img></a>
+
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menu">
+
 						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+
 					</button>
+
 				</div>
+
 				<div class="collapse navbar-collapse navbar-menu navbar-right">
+
 					<ul class="nav navbar-nav">
-						<li><a href="#" onclick="flipTo(1)">ABOUT</a>
+
+						<li><a href="#" onclick="flipTo(1)" style="margin-top: -5px;">ABOUT</a>
+
 						</li>
+
 						<li><a href="#" onclick="flipTo(2)">SPEAKERS</a>
+
 						</li>
+
 						<li><a href="#" onclick="flipTo(3)">SCHEDULE</a>
+
 						</li>
+
 						<li><a href="#" onclick="flipTo(3)">SPONSORS</a>
+
 						</li>
+
 						<li class="onlyifcollapse"><a href="#" onclick="flipTo(4)">REGISTER</a>
+
 						</li>
+
 						<li>
+
 						<a href="#" class="ghostnav" onclick="flipTo(4)">REGISTER</a>
+
 						</li>
+
 					</ul>
+
 					
+
 				</div>		
+
 			</div>
+
 			
+
 		</div>
+
 		
+
 		
+
 	<div id="projects">
+
 	
+
 		<section id="project-0" class="slide active">
+
 		<!-- Landing banner -->
+
 		
+
 			<img src="images/logopink.png" id="landing-title"></img>
+
 			
+
 			<p id="landing-subtitle" class="landing-text">DUKE UNIVERSITY | APRIL 23-25, 2016</p>
+
 			<p id="landing-caption" class="landing-text">A design thinking & innovation conference</p>
+
 			<a href="#" class="ghost-button">REGISTER</a>
+
 			<div id="block1up"><img src="images/header-pixel-1.png"></img></div>
+
 		</section>
+
 		
+
 		<section id="project-1" class="slide active">
+
 		<!-- ABOUT -->
+
 			<div id="block1down"><img src="images/header-pixel-2.png"></img></div>
+
 			
-			<hr class="aboutrule" style="margin-top: 30vh !important;">
+
+			<hr class="aboutrule">
+
 			<br>
+
 			<br>
+
 			<br>
+
 			<br>
+
 			<p class="landing-text abouthead">Empathize. Define. <span style="color: #FF186E;">Ideate.</span> Prototype. Test.</p>
+
 			<br>
+
 			<p class="aboutbody">
+
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
 		<br>
+
 		<br>
+
 		<br>
+
 		<br>
-		<hr class="aboutrule" style="margin-bottom: 30vh !important;">
+
+		<hr class="aboutrule" >
+
 		
+
 		<div id="block1up"><img src="images/about-bottom-1.png"></img></div>	
+
 		
+
 		</section>
+
 		
+
 		<section id="project-2" class="slide active">
+
 		<!-- Speakers -->
+
 		<div id="block1down"><img src="images/about-bottom-2.png"></img></div>
+
 		<p class="landing-text speakershead">SPEAKERS</p>
+
 		<hr class="speakersrule">
+
 		<br>
+
 		<br>
+
 		<br>
-		<div class="container">
+
+		<div class="container speakercont">
 			
 			<div class="row speakerrow">
 				<div class="col-md-4">
@@ -155,26 +258,66 @@
 				</div>
 			</div>
 		</div>
-		
+
+
 		</section>
+
 		
+
 		<section id="project-3" class="slide active">
+
 		<!-- Schedule -->
+
 		<div id="block1down"><img src="images/schedule-top.png"></img></div>
-		<p class="landing-text speakershead" style="color: #ffffff; margin-top: 40vh;">SCHEDULE</p>
+
+		<p class="landing-text speakershead" style="color: #ffffff;">SCHEDULE</p>
+
+		<hr class="speakersrule" style="border-color: #00D9CA; width: 35%;">
+
 		<p class="landing-text speakershead" style="color: #ffffff">The schedule is TBA. Check back soon for the full lineup!</p>
+
 		
+
 		</section>
+
 		
+
 		<section id="project-4" class="slide active">
+
 		<div id="block1down"><img src="images/schedule-bottom.png"></img></div>
+
 		<!-- Sponsors -->
-		<p></p>
+
+		<p class="landing-text sponsorshead">Sponsors</p>
+
+		<hr class="sponsorsrule">
+
+		<p class="landing-text sponsorshead">Check back soon for our sponsors announcements!</p>
+
 		</section>
+
 		
+
+		<section id="project-5" class="slide active">
+
+		<!--FOOTER-->
+
+		
+
+		</section>
+
+		
+
 	</div>
+
 	
+
 	</div>
+
 </body>
 
+
+
+
 </html>
+
