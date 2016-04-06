@@ -159,12 +159,13 @@ body{
 	margin-top: 30vh;
 	margin-bottom: 4%;
 	width: 25vw;
-	max-width: 50vw;
+	
 	letter-spacing: 8px;
 }
 
 @media screen and (max-width: 1077px) {
     #landing-title{
+		width: 45vw;
 		margin-top: 30vh;
     }
 	.quote{
@@ -372,6 +373,11 @@ body{
 }
 @media screen and (max-width: 985px){
 	
+	#landing-title{
+		
+		
+	}
+	
 	#project-2{
 		padding-bottom: 380vh;
 		padding-left: 20px;
@@ -398,15 +404,19 @@ body{
 		font-size: 9vw !important;
 	}
 	.abouthead{
-		font-size: 5vw;
+		
+		font-size: 25px;
 	}
 	.aboutbody{
-		font-size: 2vw;
+		font-size: 15px;
 	}
 	.slide{
 		text-align: center;
 		padding-left: 15vw;
 		padding-right: 15vw;
+	}
+	#project-0{
+		padding-bottom: 0vh !important;
 	}
 	#project-3{
 		padding-bottom: 120vh;
