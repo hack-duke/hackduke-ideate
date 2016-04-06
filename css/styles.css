@@ -16,6 +16,7 @@ body{
 }
 
 .slide {
+	display: block;
 	opacity: 1;
 	
 	top:0px;
@@ -56,9 +57,6 @@ body{
 	min-height: 100vh;
 }
 
-
-
-
 #project-1{
 	background-image: url("../images/aboutbg.png");
 	background-position: right bottom;
@@ -67,8 +65,8 @@ body{
 	background-attachment: scroll;
 	text-align: center;
 
-	padding-top: 5vh;
-	min-height: 130vh !important;
+	padding-top: 20vw;
+	padding-bottom: 50vw;
 }
 
 #project-2{
@@ -81,6 +79,8 @@ body{
 #project-3{
 	background-color:#2C6CD2 ;
 	background-size: 100% 100%;
+	padding-top: 20vw;
+	padding-bottom: 50vw;
 	
 }
 
@@ -92,9 +92,18 @@ body{
 	
 	padding-top: auto;
 	
-	
+		padding-top: 20vw;
+	padding-bottom: 50vw;
 }
 
+#project-5{
+	background-color:#000000;
+	color: #ffffff;
+	background-size: 100% 100%;
+	text-align: center;
+	
+	height: 50px;
+}
 
 
 /*Landing Content */
@@ -175,9 +184,8 @@ body{
 	color: #00D9CA;
 	margin-top: 0;
 	margin-bottom: 0.5%;
-	font-size: 2.3vw;
-	overflow: hidden;
-    white-space: nowrap;
+	font-size: 2.6vw;
+
 }
 
 .aboutrule{
@@ -191,7 +199,7 @@ body{
 .aboutbody{
 	color: #000000; 
 	font-family: 'montserratlight';
-	font-size: 1.5vw;
+	font-size: 1.6vw;
 	font-weight: 400; 
 	text-align: center;
 }
@@ -207,7 +215,7 @@ body{
 	z-index: 999;
 }
 
-#block1 > img{
+#block1up > img{
 	height: auto;
 	width: 100%;
 	z-index: 999;
@@ -223,9 +231,10 @@ body{
 	margin: 0;
 }
 
-#block1 > img{
+#block1down > img{
 	height: auto;
-	width: 100%;
+	width: 100vw;
+	z-index: 999;
 }
 
 /*Speakers */
@@ -241,8 +250,8 @@ body{
 	color: #2C6CD2;
 	margin-top: 15vh;
 	margin-bottom: 1%;
-	font-size: 50px;
-	letter-spacing: auto;
+	font-size: 3vw;
+
 }
 .speakersbody{
 	color: #000000; 
@@ -269,7 +278,7 @@ body{
 .sponsorsrule{
 	border-color: #00D9CA	;
 	border-width: 4px;
-	width: 35%;
+	width: 30%;
 	margin-top: auto;
 	margin-bottom: 0;
 }
@@ -277,13 +286,13 @@ body{
 	color: #2C6CD2 ;
 	margin-top: 15vh;
 	margin-bottom: 1%;
-	font-size: 50px;
+	font-size: 2.6vw;
 	letter-spacing: auto;
 }
 .sponsorsbody{
 	color: #000000; 
 	font-family: 'San Francisco';
-	font-size: 30px;
+	font-size: 1.6vw;
 	font-weight: 400; 
 	text-align: center;
 }
