@@ -45,11 +45,51 @@
     background-color: #ffffff;
 }
 
+
+
 #navcontain{
 	margin-top: 20px;
 	margin-bottom: 10px;
 	padding-left: 3%;
 	padding-right: 5%;
+}
+
+@media screen and (max-width: 1077px){
+	#navcontain{
+		margin-top: 0px !important;
+		padding: 0px !important;
+	}
+	#custom-bootstrap-menu{
+		width: 100vw;
+		height: 60px;
+		margin-left: 0 !important;
+		margin-right: 0;
+	}
+	.navbar-nav{
+		margin: 0 !important;;
+	}
+	.navbar-default .navbar-collapse{
+	border-width: 0 !important;
+	margin-top: 60px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px #dddddd;
+	}
+	#custom-bootstrap-menu.navbar-default .navbar-nav>li {
+		margin-left: vw !important;
+	}
+	.onlyifcollapse{
+		margin-bottom: 10px;
+		
+	}
+	.navlogo{
+		
+		margin-left: 10px;
+	}
+}
+
+.navbar-default .navbar-collapse{
+	border-width: 0 !important;
+	
 }
 
 
@@ -76,6 +116,12 @@
 	display: inline;
 	width: 20%;
 	transition: opacity 0.2s linear;
+}
+
+@media screen and (max-width: 1335px) and (min-width: 1077px){
+	.navlogo{
+		display: none;
+	}
 }
 
 .logo-transparent{
@@ -122,15 +168,16 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1077px) {
     .ghostnav {
         display: none !important;
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1077px) {
     .onlyifcollapse {
         display: none !important;
+		
     }
 }
 

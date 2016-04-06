@@ -129,7 +129,7 @@ body{
 	letter-spacing: 8px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1077px) {
     #landing-title{
 		margin-top: 30vh;
     }
@@ -242,7 +242,7 @@ body{
 .speakersrule{
 	border-color: #FF186E;
 	border-width: 4px;
-	width: 35%;
+	width: 18%;
 	margin-top: auto;
 	margin-bottom: 0;
 }
@@ -291,7 +291,8 @@ body{
 }
 
 .speakerimg{
-	width: 25vw;
+	max-width: 300px; 
+	width: 100%;
 	height: auto;
 }
 
@@ -300,10 +301,11 @@ body{
 	text-align: center;
 }
 
+.speakercont{
+	text-align: center
+}
+
 /*Sponsors*/
-
-/*Speakers */
-
 .sponsorsrule{
 	border-color: #00D9CA	;
 	border-width: 4px;
@@ -325,3 +327,25 @@ body{
 	font-weight: 400; 
 	text-align: center;
 }
+
+
+@media screen and (max-width: 1077px){
+	.speakershead{
+		font-size: 10vw;
+	}
+	.sponsorshead{
+		font-size: 9vw !important;
+	}
+	.slide{
+		text-align: center;
+		padding-left: 15vw;
+		padding-right: 15vw;
+	}
+	#project-3{
+		padding-bottom: 120vh;
+	}
+	#project-4{
+		padding-bottom: 120vh
+	}
+	
+}	
