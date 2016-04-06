@@ -329,7 +329,7 @@ body{
 }
 
 
-@media screen and (max-width: 1077px){
+@media screen and (max-width: 768px){
 	.speakershead{
 		font-size: 10vw;
 	}
