@@ -122,13 +122,13 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .ghostnav {
         display: none !important;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     .onlyifcollapse {
         display: none !important;
     }
@@ -171,4 +171,6 @@
 .logoScrolled{
 	display: none !important;
 }
+
+
 
