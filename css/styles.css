@@ -41,7 +41,7 @@ body{
 .active.slide {
 	
 	opacity: 1;
-	min-height: 100vh;
+	
 
 	
 }
@@ -66,23 +66,36 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	text-align: center;
-	height: 110vh;
-	min-height: 100% !important;
+
+	padding-top: 5vh;
+	min-height: 130vh !important;
 }
 
 #project-2{
 	background-color:#f6f6f6;
-	padding: 0 !important;
 	background-size: 100% 100%;
-	height: auto !important;
+	padding: 10vh 0 10vh 0;
 	
 }
 
 #project-3{
-	background-color:#1039f8;
+	background-color:#2C6CD2 ;
 	background-size: 100% 100%;
 	
 }
+
+#project-4{
+	background-color:#ffffff;
+	color: #ffffff;
+	background-size: 100% 100%;
+	text-align: center;
+	
+	padding-top: auto;
+	
+	
+}
+
+
 
 /*Landing Content */
 
@@ -183,16 +196,36 @@ body{
 	text-align: center;
 }
 
-#block1{
+#block1up{
 	position: absolute;
 	bottom: -5px;
 	left: 0;
 	width: 100vw;
 	text-align: left;
+	padding: 0;
+	margin: 0;
+	z-index: 999;
 }
+
 #block1 > img{
-	height: 2%;
-	width: 60%;
+	height: auto;
+	width: 100%;
+	z-index: 999;
+}
+
+#block1down{
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 100vw;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+#block1 > img{
+	height: auto;
+	width: 100%;
 }
 
 /*Speakers */
@@ -229,15 +262,28 @@ body{
 	text-align: center;
 }
 
-#block2{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100vw;
-	text-align: left;
-}
+/*Sponsors*/
 
-#block2 >img{
-	height: 2%;
-	width: 100%;
+/*Speakers */
+
+.sponsorsrule{
+	border-color: #00D9CA	;
+	border-width: 4px;
+	width: 35%;
+	margin-top: auto;
+	margin-bottom: 0;
+}
+.sponsorshead{
+	color: #2C6CD2 ;
+	margin-top: 15vh;
+	margin-bottom: 1%;
+	font-size: 50px;
+	letter-spacing: auto;
+}
+.sponsorsbody{
+	color: #000000; 
+	font-family: 'San Francisco';
+	font-size: 30px;
+	font-weight: 400; 
+	text-align: center;
 }
