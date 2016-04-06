@@ -58,7 +58,8 @@ body{
 }
 
 #project-1{
-	background-image: url("../images/aboutbg.png");
+	/*background-image: url("../images/aboutbg.png");*/
+	background: #ffffff;
 	background-position: right bottom;
 	background-size: auto 100vh;
 	background-repeat: no-repeat;
