@@ -65,7 +65,7 @@ body{
 	background-attachment: scroll;
 	text-align: center;
 
-	padding-top: 20vw;
+	padding-top: 18vw;
 	padding-bottom: 60vw;
 }
 
@@ -288,7 +288,7 @@ body{
 	border-width: 4px;
 	width: 18%;
 	margin-top: auto;
-	margin-bottom: 0;
+	margin-bottom: 30px;
 }
 .speakername{
 	color: #2C6CD2;
