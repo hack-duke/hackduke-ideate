@@ -1,3 +1,8 @@
+
+var host = "edl13.github.io";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     if(scroll>5){
@@ -19,3 +24,4 @@ $(window).scroll(function (event) {
 	}
 	
 });
+
