@@ -13,6 +13,7 @@ body{
 
 #projects {
 	height:100%;
+	background-color: #f6f6f6;
 }
 
 .slide {
@@ -73,12 +74,10 @@ body{
 
 
 #project-2{
-	background-color:#f6f6f6;
+	overflow: visible;
+	background-color:transparent;
 	background-size: 100% 100%;
 	padding: 15vh 0 150vh 0;
-	min-height: 140vh;	
-	
-
 }
 
 @media screen and (max-height: 845px){
@@ -299,6 +298,7 @@ body{
 	width: 18%;
 	margin-top: auto;
 	margin-bottom: 30px;
+	overflow: auto;
 }
 .speakername{
 	color: #2C6CD2;
@@ -358,7 +358,7 @@ body{
 }
 
 .speakercont{
-	text-align: center
+	text-align: center;
 }
 
 /*Sponsors*/
