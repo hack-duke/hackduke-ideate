@@ -370,6 +370,7 @@ body{
 	margin-bottom: 0;
 }
 .sponsorshead{
+	text-align: center;
 	color: #2C6CD2 ;
 	margin-top: 15vh;
 	margin-bottom: 1%;
@@ -442,7 +443,7 @@ body{
 	height: auto;
 }
 .sponscont{
-	margin-top: 10vh;
+	margin-top: 20vh;
 }
 
 .sponsrow{
