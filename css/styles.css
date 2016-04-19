@@ -22,7 +22,7 @@ body{
 	
 	top:0px;
 	left:0px;
-	height: 100vh;
+	
 	width: 100%;
 
 	padding-left: 25%;
@@ -68,7 +68,7 @@ body{
 	text-align: center;
 
 	padding-top: 18vw;
-	padding-bottom: 60vw;
+	padding-bottom: 16vw;
 }
 
 
@@ -77,20 +77,18 @@ body{
 	overflow: visible;
 	background-color:transparent;
 	background-size: 100% 100%;
-	padding: 15vh 0 150vh 0;
+	padding: 15vh 0 16vh 0;
 }
 
-@media screen and (max-height: 845px){
-	#project-2{
-		padding-bottom: 180vh !important;
-	}
-}	
 
 #project-3{
 	background-color:#2C6CD2 ;
 	background-size: 100% 100%;
 	padding-top: 20vw;
-	padding-bottom: 50vw;
+	padding-bottom: 16vw;
+	text-align: center;
+	padding-left: 10% !important;
+	padding-right: 10% !important;
 	
 }
 
@@ -101,9 +99,10 @@ body{
 	text-align: center;
 	
 	padding-top: auto;
-	
+	padding-left: 10% !important;
+	padding-right: 10% !important;
 		padding-top: 20vw;
-	padding-bottom: 50vw;
+	padding-bottom: 5vw;
 }
 
 #project-5{
@@ -112,7 +111,8 @@ body{
 	color: #ffffff;
 	background-size: 100% 100%;
 	text-align: center;
-
+	padding-left: 30% !important;
+	padding-right: 30% !important;
 	padding-top: 20vw;
 	padding-bottom: 5vw;
 }
@@ -121,7 +121,7 @@ body{
 	color: #BBBBBB;
 	text-align: center;
 	font-family: 'Montserrat';
-	font-size: 30px;
+	font-size: 20px;
 	line-height: 2em;
 }
 .quotename{
@@ -129,7 +129,7 @@ body{
 	opacity: .25;
 	font-family: 'Montserrat';
 	letter-spacing: 2px;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 1.5em;
 }
 
@@ -260,7 +260,7 @@ body{
 	position: absolute;
 	bottom: -5px;
 	left: 0;
-	width: 100vw;
+	width: 100%;
 	text-align: left;
 	padding: 0;
 	margin: 0;
@@ -277,7 +277,7 @@ body{
 	position: absolute;
 	top: -5px;
 	left: 0;
-	width: 100vw;
+	width: 100%;
 	text-align: left;
 	padding: 0;
 	margin: 0;
@@ -286,7 +286,7 @@ body{
 
 #block1down > img{
 	height: auto;
-	width: 100vw;
+	width: 100%;
 	z-index: 999;
 }
 
@@ -391,7 +391,7 @@ body{
 	}
 	
 	#project-2{
-		padding-bottom: 380vh;
+
 		padding-left: 20px;
 		padding-right: 20px;
 	}
@@ -430,11 +430,29 @@ body{
 	#project-0{
 		padding-bottom: 0vh !important;
 	}
-	#project-3{
-		padding-bottom: 120vh;
-	}
-	#project-4{
-		padding-bottom: 120vh
-	}
 	
 }	
+
+/*SPONSORS*/
+.sponsimg{
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	width: 200px;
+	height: auto;
+}
+.sponscont{
+	margin-top: 10vh;
+}
+
+.sponsrow{
+	margin-top: 5vh;
+}
+
+@media screen and (max-width: 985px){
+	
+.sponscol{
+	padding-top:5vh;
+}
+
+}
